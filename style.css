@@ -7,6 +7,36 @@ body{
     background-color: rgb(253, 230, 214);
 }
 
+.nav-first{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    height: 50px;
+}
+
+ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    margin-right: 10px;
+}
+
+li{
+    margin-right: 10px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+}
+
+header nav img{
+    height: 30px;
+    margin-left: 10px;
+}
+
 .gallery {
     display: flex;
     flex-direction: row;
@@ -61,3 +91,78 @@ button{
 button:hover{
     background-color: black;
 }
+
+.telf{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 20px;
+}
+
+.nav-second{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    height: 30px;
+}
+
+.nav-second ul li a{
+    color: white;
+}
+
+.nav-second ul{
+    margin: 0;
+    padding: 0;
+}
+
+.parrafo{
+    background-color: white;
+    padding: 30px;
+    margin: 30px;
+}
+
+.column-uno{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    gap: 30px;
+}
+.menu-final{
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    margin-right: 40px;
+    margin-bottom: 40px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 40px;
+    background-color: white;
+    margin: 0;
+}
+
+footer img{
+    height: 20px;
+    margin-right: 5px;
+}
+
+
+
+@media (min-width: 576px){
+    .nav-second ul li a{
+        margin: 50px;
+    }
+}
+
